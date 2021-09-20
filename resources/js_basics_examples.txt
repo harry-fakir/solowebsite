@@ -1,0 +1,34 @@
+// JavaScript Basics
+/* JavaScript Basic 
+	In this lecture, you are going to learn basic of JS
+*/
+var myVariable = "Welcome To JavaScript Bascis";
+
+// document.write(myVariable);
+//alert(myVariable);
+
+var a = 20;
+if ( a == 10 ) {
+    document.write("a value is 10.");
+} else  {
+    document.write("a value is NOT 10.");
+}
+
+function myFunction() {
+    document.write("<br>Code execution of function");
+}
+
+myFunction();
+
+
+var person = {
+firstName: "Irfan",
+lastName: "Dayan",
+height: 5.9,
+age: 26
+}
+
+document.write("<br>" + person.firstName + "<br>");
+document.write(person.lastName + "<br>");
+document.write(person.height + "<br>");
+document.write(person.age + "<br>");

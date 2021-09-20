@@ -1,0 +1,117 @@
+
+
+/*===========================================================
+large screen
+===========================================================*/
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+    .site-nav-wrapper {
+        padding: 0 20px;
+    }
+
+   
+
+
+}
+
+
+
+/*===========================================================
+medium screen
+===========================================================*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*    nav-bar*/
+    .site-nav-wrapper {
+        padding: 0;
+    }
+
+    /*   vertical-heading*/
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+
+    /*   services 02 text*/
+    #services-tabs .tab-bg {
+        padding: 16px 30px;
+        min-height: 400px;
+    }
+
+    .service-tab p {
+        line-height: 20px;
+    }
+}
+
+
+
+/*===========================================================
+small screen
+===========================================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    /*    home*/
+    #home-heading h1 {
+        font-size: 41px;
+        color:green;
+    }
+
+    #home-text p {
+        font-size: 13px;
+
+    }
+    .btn-general {
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+
+    }
+
+
+    /*   vertical-heading*/
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+
+    /*   tech statement*/
+
+    #tech-statement h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pricing-table .price h2 {
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
+
+    /*    stat section*/
+    .stats-item p {
+        line-height: 18px;
+    }
+
+    /*    blog section*/
+    .blog-post .post-meta p {
+        line-height: 14px;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    /*    contact section*/
+    ul.office-details li {
+        margin-right: 15px;
+    }
+    ul.office-details li i {
+        width: 25px;
+
+    }
+
+}
+
+
+
+
+
+
+
